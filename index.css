@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://watermark.lovepik.com/photo/40013/7800.jpg_wh1200.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    color: rgb(210, 42, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:pink;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    height: 350px;
+
+    box-shadow: 0 0 10px 5px #ff000066;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 75%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+button {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px #ff000066;
+    width: 50%;
+    
+}
+.love{
+    padding: 20px;
+    
+}
+.newlove{
+    font-size: 20px;
+}
+
+button:hover {
+    background-color:rgb(211, 27, 141);
+}
+
+.result {
+    display: none;
+    margin-top: 20px;
+}
+
+#loveScore {
+    font-size: 2em;
+    margin: 10px 0;
+}
